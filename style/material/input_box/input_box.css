@@ -1,0 +1,40 @@
+.input-box {
+    position: relative;
+    display: inline-block;
+}
+
+.material_input-box {
+    font-size: 19px;
+    font-family: inherit;
+    font-weight: 300;
+    height: 50px;
+    min-width: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    user-select: none;
+    cursor: text;
+    overflow: hidden;
+    padding-left: 45px;
+    padding-right: 15px;
+    outline: none;
+    display: inline;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.1s;
+    margin-top: 0px;
+    z-index: 10;
+}
+.material_input-box:focus {
+    filter: brightness(110%);
+    transition: 0.2s;
+}
+
+.keyboard-icon {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    color: rgb(220, 220, 220);
+    user-select: none;
+    cursor: default;
+    z-index: 20;
+}

@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
-
 .material_base-button {
-    background-color: #ffab91;
     position: relative;
-    color: black;
-    font-family: 'Lato', sans-serif;
     font-size: 19px;
     height: 50px;
     min-width: 50px;
@@ -27,7 +22,6 @@
 }
 .material_base-button .hover-anim {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.08);
     width: 1px;
     height: 1px;
     border-radius: 50%;
@@ -35,14 +29,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: brightness(100%);
     z-index: 0;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .material_base-button:hover .hover-anim {
     transform: translate(-50%, -50%) scale(260);
     transition: 0.2s;
 }
 .material_base-button:active .hover-anim {
-    background-color: rgba(255, 255, 255, 0.15);
+    filter: brightness(120%);
     transition: 0.1s;
 }
