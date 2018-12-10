@@ -14,7 +14,7 @@
     <div style="width: 100%; text-align: center; margin-top: 150px;">
         <base-button text="Okay"></base-button>
         <round-button icon="done"></round-button>
-        <input-box></input-box>
+        <input-box placeholder="Test"></input-box>
     </div>
 </body>
 </html>

@@ -35,6 +35,6 @@
     left: 12px;
     color: rgb(220, 220, 220);
     user-select: none;
-    cursor: default;
+    cursor: pointer;
     z-index: 20;
 }
